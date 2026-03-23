@@ -1,0 +1,32 @@
+&LISTA_FISICA
+ NUM_PARTICULAS=900        ,
+ LADO_CAJA=  30.000000000000000     ,
+ PHI= 0.10000000000000001     ,
+ EPSILON_LJ=  1.0000000000000000     ,
+ DELTA_T=  1.0000000000000000E-003,
+ MASA=  1.0000000000000000     ,
+ TEMPERATURA_INI=  1.0000000000000000     ,
+ /
+&LISTA_SIMULACION
+ INICIO_ORDENADO=T,
+ SALIDA_ANIMACION=F,
+ NUM_INTENTOS_EMPALMES=2000       ,
+ NUM_PASOS_TERMALIZACION=100000     ,
+ NUM_PASOS_PROMEDIOS=100000     ,
+ DELTA_N_TERM=10         ,
+ DELTA_N_PROM=10         ,
+ INT_RADIO_CORTE=4          ,
+ SEMILLA_1=-1         ,
+ SEMILLA_2=-123       ,
+ SEMILLA_3=-12345     ,
+ ARCHIVO_TERMAL="observables_termalizacion.dat                                                                                                                         ",
+ ARCHIVO_PROMEDIOS="observables_promedios.dat                                                                                                                             ",
+ ARCHIVO_LOG="log_simulacion.dat                                                                                                                                    ",
+ ARCHIVO_GR="g_r.dat                                                                                                                                               ",
+ PREFIJO_CFG="./animacion/cfg_                                                                                                                                      ",
+ /
+&LISTA_ESTADISTICA
+ NUM_R=1000       ,
+ NUM_PASOS_SALIDA=300        ,
+ DELTA_R=  1.0000000000000000E-002,
+ /
